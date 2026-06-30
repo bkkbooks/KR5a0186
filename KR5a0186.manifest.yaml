@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5a0186/v1
+canonical_location: https://kanripo.org/bkk/KR5a0186/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 赤松子中誡經
+  identifiers:
+    alt_id:
+    - DZ0185
+  date: '2015-08-28 23:40:12.216517'
+  source:
+    repository: kanripo
+    path: KR5a0186
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0186_000.yaml, hash: 'sha256:746a6733fc07af9862cd6ef09b585b6f0c067663ed16c35cd6cf60d62e0524c9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0186_000.markers.yaml, hash: 'sha256:da117fbcfc9413ee4960cd644da21d3e2a3799cc5247855ade1a3ec36300d22a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0186_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4271
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:5f155163f05f72ffa5dfe937cb50443050ae6f1c307d3a0d729443313e4f5b99
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
